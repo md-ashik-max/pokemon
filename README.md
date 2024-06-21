@@ -1,8 +1,34 @@
-# React + Vite
+# Pokémon Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React application to display Pokémon data fetched from the [PokeAPI](https://pokeapi.co/api/v2/pokemon) with search functionality. The app uses Tailwind CSS for styling and Axios for data fetching.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of Pokémon in card format with images.
+- Search functionality to filter Pokémon by name.
+- Responsive design using Tailwind CSS.
+
+## Installation
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/md-ashik-max/pokemon
+   cd pokemon-app
+Install the necessary dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The app will be running at http://localhost:3000.
